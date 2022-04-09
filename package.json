@@ -1,0 +1,16 @@
+{
+  "name": "alfred-password-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "author": "Marcus Olsson",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "alfy": "^1.0.0"
+  }
+}
