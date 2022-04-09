@@ -1,13 +1,25 @@
 {
-  "name": "alfred-password-generator",
+  "name": "alfred-pwgen",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple password generator to quickly get a randomly generated secure password to your clipboard.",
   "main": "index.js",
   "scripts": {
     "postinstall": "alfy-init",
     "preuninstall": "alfy-cleanup"
   },
-  "author": "Marcus Olsson",
+  "author": {
+    "name": "Marcus Olsson",
+    "email": "contact@marcusolsson.me",
+    "url": "https://marcusolsson.me"
+  },
+  "keywords": [
+    "alfred",
+    "alfred4",
+    "alfred-workflow",
+    "password",
+    "password-generator",
+    "pwgen"
+  ],
   "license": "MIT",
   "type": "module",
   "dependencies": {
